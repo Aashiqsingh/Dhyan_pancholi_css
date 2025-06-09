@@ -1,0 +1,10 @@
+CCS --> Cascading style sheet
+
+where is html run?
+- browser / client side 
+
+
+There is three types of css defining.
+1. external css [.css]
+2. internal css <style>
+3. inline css - same line -- style
