@@ -27,7 +27,7 @@
         background-color: rgba(0, 0, 0, 0.475);
         padding-top: 10px;
         padding-left: 30px;
-        position: absolute;
+        position: fixed;
         z-index: 1;
     }
 
@@ -130,38 +130,110 @@
         margin-left: -19px;
         margin-right: 10px;
     }
-    .why{
+
+    .why {
         height: 520px;
         width: 100%;
         background-color: rgba(255, 68, 0, 0.858);
         text-align: center;
         padding-top: 50px;
     }
-    .why h1{
+
+    .why h1 {
         color: white;
         font-size: 46px;
         margin-bottom: 40px;
     }
-    .wrap{
+
+    .wrap {
         height: 520px;
         width: 100%;
         background-image: url('https://cloudfrontgharpediabucket.gharpedia.com/uploads/2023/01/Need-For-Different-Types-of-Building-03-0107120005.jpg');
         background-size: cover;
     }
-    .paraImg{
+
+    .paraImg {
         display: flex;
         justify-content: space-evenly;
     }
-    .paraImg p{
+
+    .paraImg p {
         width: 48%;
         color: white;
         text-align: justify;
         font-size: 20px;
     }
-    .paraImg img{
+
+    .paraImg img {
         border: 4px solid white;
     }
 
+    .service {
+        width: 100%;
+        height: 670px;
+        display: flex;
+    }
+
+    .hardware {
+        width: 50%;
+        height: 670px;
+        background-color: #F0F0F0;
+        padding-top: 50px;
+        padding-left: 60px;
+    }
+
+    .hardware h1 {
+        margin-bottom: 40px;
+    }
+
+    .hardware p {
+        padding: 4px;
+        font-size: 20px;
+    }
+
+    .software {
+        width: 50%;
+        height: 670px;
+        background-color: #E7E5E5;
+        padding-top: 50px;
+        padding-left: 40px;
+    }
+
+    .software img {
+        padding: 10px;
+    }
+
+    .list2 i {
+        color: orangered;
+        font-size: 30px;
+        margin-right: 10px;
+    }
+
+    .faculty {
+        height: 800px;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.667);
+        padding-top: 70px;
+    }
+
+    .wrap2 {
+        height: 800px;
+        width: 100%;
+        background-image: url('https://png.pngtree.com/background/20240412/original/pngtree-d-render-of-modern-dark-office-room-with-ample-copy-space-picture-image_8464664.jpg');
+        background-size: cover;
+    }
+
+    .faculty h1 {
+        color: white;
+        font-size: 50px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .box{
+        /* height: 200px; */
+        width: 200px;
+        margin: auto;
+    }
 </style>
 
 <body>
@@ -268,7 +340,103 @@
                 <h1>Why Royal Technosoft?</h1>
                 <div class="paraImg">
                     <img src="https://royaltechnosoft.com/wp-content/uploads/2018/11/accounting_img.jpg" alt="">
-                    <p>Royal Technosoft Pvt. Ltd. provides Global Software Solutions and their affiliated undertakings.  In India’s Ahmedabad, we have a software development team. Both the Gandhinagar branch and Surat where we are currently conducting business. Furthermore, our experts completed a number of government projects for India. Our goal is to comprehend the business goals of our clients and be seen as one of their most organizational aspects. Our primary goal is to create solutions to clients that are quick, simple, and low-effort. Process to ensure prompt response without compromising quality is something we always do.</p>
+                    <p>Royal Technosoft Pvt. Ltd. provides Global Software Solutions and their affiliated undertakings.
+                        In India’s Ahmedabad, we have a software development team. Both the Gandhinagar branch and Surat
+                        where we are currently conducting business. Furthermore, our experts completed a number of
+                        government projects for India. Our goal is to comprehend the business goals of our clients and
+                        be seen as one of their most organizational aspects. Our primary goal is to create solutions to
+                        clients that are quick, simple, and low-effort. Process to ensure prompt response without
+                        compromising quality is something we always do.</p>
+                </div>
+            </div>
+        </div>
+        <!-- wrap ends -->
+
+        <div class="service">
+            <div class="hardware">
+                <h1>List Services We Offer</h1>
+                <div class="list2">
+                    <p><i class="fa-solid fa-arrow-right"></i>Ethical Hacking</p>
+                    <p><i class="fa-solid fa-arrow-right"></i>Development & Training For SQL</p>
+                    <p><i class="fa-solid fa-arrow-right"></i>Development & Training For C#</p>
+                    <p><i class="fa-solid fa-arrow-right"></i>Development & Training For Python</p>
+                    <p><i class="fa-solid fa-arrow-right"></i>Development & Training For Ruby on Rails</p>
+                    <p><i class="fa-solid fa-arrow-right"></i>Development & Training For Android</p>
+                    <p><i class="fa-solid fa-arrow-right"></i>Development & Training For iPhone</p>
+                    <p><i class="fa-solid fa-arrow-right"></i>Development & Training For Hadoop</p>
+                </div>
+            </div>
+            <div class="software">
+                <h1>Software We Work With</h1>
+                <img src="https://royaltechnosoft.com/wp-content/uploads/2018/11/Ethical_Hacking.png" alt="">
+                <img src="https://royaltechnosoft.com/wp-content/uploads/2018/11/oracle-1.png" alt="">
+                <img src="https://royaltechnosoft.com/wp-content/uploads/2018/11/java.jpg" alt="">
+                <img src="https://royaltechnosoft.com/wp-content/uploads/2018/11/artificial_inteligence.png" alt="">
+                <img src="https://royaltechnosoft.com/wp-content/uploads/2018/11/Python.jpg" alt="">
+            </div>
+        </div>
+        <!-- service ends -->
+
+        <div class="wrap2">
+            <div class="faculty">
+                <h1>Meet The Team</h1>
+                <div class="facultySlider">
+                    <div id="carouselExampleFade" class="carousel slide carousel-fade">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="box">
+                                    <img src="https://royaltechnosoft.com/wp-content/uploads/2018/11/team1.png" class="d-block w-100" alt="...">
+                                </div>
+                                
+                            </div>
+                            <div class="carousel-item">
+                                <div class="box">
+                                    <img src="https://royaltechnosoft.com/wp-content/uploads/2018/11/team2.png" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="box">
+                                    <img src="https://royaltechnosoft.com/wp-content/uploads/2022/08/Alakh-Pandya.png" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="box">
+                                    <img src="https://royaltechnosoft.com/wp-content/uploads/2022/08/Rahul-Kirpekar.jpg" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="box">
+                                    <img src="https://royaltechnosoft.com/wp-content/uploads/2022/08/Samir-Vithlani.jpg" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="box">
+                                    <img src="https://royaltechnosoft.com/wp-content/uploads/2022/08/Krishna-Shah.jpeg" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="box">
+                                    <img src="https://royaltechnosoft.com/wp-content/uploads/2022/08/Madhusudan-Soneji.jpeg" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="box">
+                                    <img src="https://royaltechnosoft.com/wp-content/uploads/2022/08/Kamal-Soneji.jpeg" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
