@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .main{
+        height: 400px;
+        width: 100%;
+        background-color: teal;
+
+        display: flex;
+        align-items: center;
+        /* gap: 20px;
+        a */
+        justify-content: space-around;
+    }
+    .img{
+        width: 25%;
+    }
+    .img img{
+        width: 100%;
+    }
+    .para{
+        width: 70%;
+        font-size: 18px;
+    }
+
+
+    @media(max-width:500px){
+        .main{
+            display: block;
+            height: auto;
+            padding: 10px;
+            background-color: red;
+        }
+        .img{
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        .para{
+            width: 100%;
+            text-align: justify;
+            color: white;
+        }
+    }
+
+    @media(min-width:501px) and (max-width:900px){
+        .main{
+            background-color: blue;
+            padding: 10px;
+            height: auto;
+        }
+        .img{
+            width: 45%;
+        }
+        .img img{
+            width: 100%;
+            border-radius: 30px;
+            box-shadow: 5px 5px 10px white;
+        }
+        .para{
+            width: 50%;
+            color: white;
+        }
+    }
+
+
+    @media(min-width:900px){
+        .main{
+            display: flex;
+            background-color: green;
+            color: white;
+            padding: 10px;
+            height: auto;
+        }
+        .img img{
+            border-radius: 50%;
+            border: 8px dotted white;
+        }
+    }
+
+</style>
+<body>
+    
+    <div class="main">
+        <div class="img">
+            <img src="https://pbs.twimg.com/profile_images/968380843906527233/26WKEI9O_400x400.jpg" alt="">
+        </div>
+        <div class="para">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum eligendi iure illo cumque eveniet praesentium quidem maiores, in, libero repellat dolores saepe minus sequi quis sunt quo veniam inventore deserunt veritatis natus soluta. Debitis minima, quis reiciendis earum quae rem similique vel minus accusamus! Commodi, dolor ducimus quis qui eveniet culpa quo, molestias totam incidunt consequuntur, quod assumenda veritatis animi laboriosam minus tempore ut porro! Illo, quas! Nobis quod repellat fugit natus est nihil. Eaque, delectus ratione illum neque cupiditate fugit blanditiis saepe hic labore rerum ipsum dolore quas aperiam tempore fugiat, placeat animi eius. Molestiae ipsam maxime mollitia aspernatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus nobis a natus magni voluptas accusantium obcaecati sint veritatis? Dolor ut consequuntur minus, vitae aspernatur ducimus sapiente repellendus quidem cum fugiat labore possimus ipsa placeat quis laboriosam est! Veniam iste, deleniti expedita corrupti officia provident modi! Iste cum necessitatibus ad, neque mollitia vitae eaque veritatis. Veniam, adipisci? Soluta repudiandae odio, reiciendis quisquam iste ipsa, quas tempore eaque porro incidunt est enim provident quidem at ratione eligendi assumenda labore voluptates. Praesentium doloribus, nihil temporibus quas expedita, et magnam, ab earum cupiditate sit dicta deserunt totam? Odit cum beatae, consequuntur mollitia corrupti perspiciatis.
+        </div>
+    </div>
+
+
+</body>
+</html>
